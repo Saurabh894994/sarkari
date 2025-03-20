@@ -11,11 +11,11 @@ from typing import List
 
 class bot(object):
     # get API_ID, API_HASH values from my.telegram.org (Mandatory)
-    API_ID: str = os.environ.get("API_ID")
-    API_HASH: str = os.environ.get("API_HASH")
+    API_ID: str = os.environ.get("29384996")
+    API_HASH: str = os.environ.get("b39fe9b079bf80ad040a3d9d4f71ec81")
 
     # add API_TOKEN from @botfather (Mandatory)
-    API_TOKEN: str = os.environ.get("API_TOKEN")
+    API_TOKEN: str = os.environ.get("8145999939:AAEWN-K6MqVzKTWh5j-PGNeZR_8XUQBafYA")
 
     # def __init__(self):
     #     if not all([self.API_ID, self.API_HASH, self.API_TOKEN]):
